@@ -1,0 +1,100 @@
+/* цвет контента 757575 */
+/* цвет заголовков 212121 */
+/* цвет фона команды F5F4FA */
+/* синий 2196F3 */
+/* герой 2F303A */
+/* лого 000000 */
+
+:root {
+  --title-text-colour: #212121;
+  --primary-text-colour: #757575;
+  --accent-colour: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+body {
+  background-color: white;
+  color: var(--primary-text-colour);
+}
+
+/* Logo */
+.logo {
+  color: var(--accent-colour);
+}
+
+.header .studio-style {
+  color: #000000;
+}
+
+/* Navigation */
+
+.nav-site .link {
+  color: var(--title-text-colour);
+}
+
+.nav-site .link:hover,
+.nav-site .link:focus {
+  color: var(--accent-colour);
+}
+
+.nav-contact .email {
+  color: var(--title-text-colour);
+}
+.nav-contact .email:hover,
+.nav-contact .email:focus {
+  color: var(--accent-colour);
+}
+
+.nav-site .link.current {
+  color: var(--accent-colour);
+}
+/* Hero section */
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+
+/* Main content */
+.section-title {
+  color: var(--title-text-colour);
+}
+.preferences-list .content-title {
+  color: var(--title-text-colour);
+}
+
+/* Our team */
+.team-name {
+  color: var(--title-text-colour);
+}
+
+/* Footer */
+.footer-section {
+  background-color: #2f303a;
+}
+
+.address {
+  color: #ffffff;
+}
+.footer-section .studio-style {
+  color: #ffffff;
+}
+.address-email,
+.address-tel {
+  color: #ffffff;
+}
+
+/* Buttons */
+
+.button {
+  color: #ffffff;
+  background-color: var(--accent-colour);
+}
+
+.button-port {
+  color: var(--title-text-colour);
+  background-color: #f5f4fa;
+}
