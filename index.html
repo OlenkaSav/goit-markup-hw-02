@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -28,7 +30,7 @@
                 <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>  
             </li>
             <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
        
@@ -49,19 +51,19 @@
         <ul class="preferences-list">
             <li>
                 <h3 class="content-title">Внимание к деталям</h3>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
             <li>
                 <h3 class="content-title">Пунктуальность</h3>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             <li>
                 <h3 class="content-title">Планирование</h3>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             <li>
                 <h3 class="content-title">Современные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
     </section>
@@ -89,22 +91,22 @@
             <li>
                 <img src="./images/demjanenko.jpg" alt="Игорь Демьяненко" width="270">
                 <h3 class="team-name">Игорь Демьяненко</h3>
-                <p>Product Designer</p>
+                <p lang="en" class="position" >Product Designer</p>
             </li>
             <li>
                 <img src="./images/repina.jpg" alt="Ольга Репина" width="270">
-                <h class="team-name"3>Ольга Репина</h3>
-                <p>Frontend Developer</p>
+                <h3 class="team-name">Ольга Репина</h3>
+                <p lang="en" class="position">Frontend Developer</p>
             </li>
             <li>
                 <img src="./images/tarasov.jpg" alt="Николай Тарасов" width="270">
                 <h3 class="team-name">Николай Тарасов</h3>
-                <p>Marketing</p>
+                <p lang="en" class="position">Marketing</p>
             </li>
             <li>
                 <img src="./images/iermakov.jpg" alt="Михаил Ермаков" width="270">
                 <h3 class="team-name">Михаил Ермаков</h3>
-                <p>UI Designer</p>
+                <p lang="en" class="position">UI Designer</p>
             </li>
         </ul>
     </section>
@@ -115,9 +117,11 @@
         <a class="logo" href="index.html">Web<span class="studio-style">Studio</span></a>
        
         <address class="address">
-            <ul>
+            <ul class="address-list">
                 <li>
-                    <p>г. Киев, пр-т Леси Украинки, 26</p>
+                    <a href="https://goo.gl/maps/Qix8SAgsikwh32vZ7" class="address-offline"
+                    target="_blank" rel="noreferrer noopener">
+                    г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
                     <a href="mailto:info@example.com" class="address-email">info@example.com</a>

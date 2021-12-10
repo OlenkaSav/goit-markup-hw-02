@@ -17,11 +17,16 @@ ul {
 body {
   background-color: white;
   color: var(--primary-text-colour);
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Logo */
 .logo {
   color: var(--accent-colour);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .header .studio-style {
@@ -32,6 +37,11 @@ body {
 
 .nav-site .link {
   color: var(--title-text-colour);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav-site .link:hover,
@@ -39,11 +49,21 @@ body {
   color: var(--accent-colour);
 }
 
-.nav-contact .email {
+.nav-contact .email,
+.nav-contact .tel {
   color: var(--title-text-colour);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-contact .email:hover,
 .nav-contact .email:focus {
+  color: var(--accent-colour);
+}
+.nav-contact .tel:hover,
+.nav-contact .tel:focus {
   color: var(--accent-colour);
 }
 
@@ -56,19 +76,49 @@ body {
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Main content */
 .section-title {
   color: var(--title-text-colour);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .preferences-list .content-title {
   color: var(--title-text-colour);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.preferences-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Our team */
 .team-name {
   color: var(--title-text-colour);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -76,15 +126,34 @@ body {
   background-color: #2f303a;
 }
 
-.address {
+.address-offline,
+.address-email,
+.address-tel {
+  font-style: normal;
   color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer-section .studio-style {
   color: #ffffff;
 }
-.address-email,
-.address-tel {
-  color: #ffffff;
+.address-offline,
+.address-tel,
+.address-email {
+  text-decoration: none;
+}
+.address-offline:hover,
+.address-offline:focus {
+  color: var(--accent-colour);
+}
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-colour);
+}
+.address-email:hover,
+.address-email:focus {
+  color: var(--accent-colour);
 }
 
 /* Buttons */
@@ -92,9 +161,32 @@ body {
 .button {
   color: #ffffff;
   background-color: var(--accent-colour);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 88;
+  cursor: pointer;
 }
 
 .button-port {
   color: var(--title-text-colour);
   background-color: #f5f4fa;
+  cursor: pointer;
+}
+.button-port:hover,
+.button-port:focus {
+  background-color: var(--accent-colour);
+}
+/* portfolio */
+.port-title {
+  color: var(--title-text-colour);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-colour);
 }

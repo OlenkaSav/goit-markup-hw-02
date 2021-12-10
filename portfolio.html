@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -26,7 +28,7 @@
     </nav>
     <ul class="nav-contact">
         <li>
-            <a class="email" "href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
             <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -38,7 +40,7 @@
 
     <!-- Main content section -->
     <main>
-        <h2>Навигация по странице</h2>
+        <h1 hidden> Наши проекты</h1>  
         <ul>
             <li>
                 <button type="button" class="button-port"> Все </button>
@@ -56,57 +58,76 @@
             </li>
         </ul>
 
-        <h2> Наши проекты</h2>
-        <ul>
+        <ul class="projects">
             <li>
                 <img src="./images/portfolio1.jpg" alt="веб-сайт технокряк" width="370">
+                <h2 class="port-title">Технокряк</h2>
+                <p class="port-text">Веб-сайт</p>
             </li>
             <li>
                 <img src="./images/portfolio2.jpg" alt="дизайн постера" width="370">
+                <h2 class="port-title">Постер <span lang="en"> Orlean vs Golden Star </span></h2>
+                <p class="port-text">Дизайн</p>
             </li>
             <li>
                 <img src="./images/portfolio3.jpg" alt="приложение ресторана" width="370">
+                <h2 class="port-title">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="port-text">Приложение</p>
             </li>
             <li>
                 <img src="./images/portfolio4.jpg" alt="проект прайм" width="370">
+                <h2 class="port-title">Проект <span lang="en">Prime</span></h2>
+                <p class="port-text">Маркетинг</p>
             </li>
             <li>
                 <img src="./images/portfolio5.jpg" alt="приложение проект боксес" width="370">
+                <h2 class="port-title">Проект <span lang="en">Boxes</span> </h2>
+                <p class="port-text">Приложение</p>
             </li>
             <li>
                 <img src="./images/portfolio6.jpg" alt="веб-сайт" width="370">
+                <h2 class="port-title" lang="en">Inspiration has no Borders</h2>
+                <p class="port-text">Веб-сайт</p>
             </li>
             <li>
                 <img src="./images/portfolio7.jpg" alt="дизайн издание" width="370">
+                <h2 class="port-title">Издание <span lang="en">Limited Edition</span></h2>
+                <p class="port-text">Дизайн</p>
             </li>
             <li>
                 <img src="./images/portfolio8.jpg" alt="маркетинг проект лаб" width="370">
+                <h2 class="port-title">Проект <span lang="en">LAB</span></h2>
+                <p class="port-text">Маркетинг</p>
             </li>
             <li>
                 <img src="./images/portfolio9.jpg" alt="приложение" width="370">
+                <h2 class="port-title" lang="en">Growing Business</h2>
+                <p class="port-text">Приложение</p>
             </li>
         </ul>
 
     </main>
 
     <!-- Footer section -->
-    <footer>
-        <a href="">WebStudio</a>
-    
-        <address>
-            <ul>
-                <li>
-                    <p>г. Киев, пр-т Леси Украинки, 26</p>
-                </li>
-                <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </footer>
+<footer class="footer-section">
+    <a class="logo" href="index.html">Web<span class="studio-style">Studio</span></a>
+
+    <address class="address">
+        <ul class="address-list">
+            <li>
+                <a href="https://goo.gl/maps/Qix8SAgsikwh32vZ7" class="address-offline" target="_blank"
+                    rel="noreferrer noopener">
+                    г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li>
+                <a href="mailto:info@example.com" class="address-email">info@example.com</a>
+            </li>
+            <li>
+                <a href="tel:+380991111111" class="address-tel">+38 099 111 11 11</a>
+            </li>
+        </ul>
+    </address>
+</footer>
 
 </body>
 </html>
