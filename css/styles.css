@@ -9,15 +9,22 @@
   --title-text-colour: #212121;
   --primary-text-colour: #757575;
   --accent-colour: #2196f3;
+  --background-color: white;
+  --studio-stile-color: black;
+  --section-backgroun-colour: #2f303a;
+  --text-white-accent-colour: #ffffff;
+  --button-background-colour: #f5f4fa;
 }
 
 ul {
   list-style: none;
 }
 body {
-  background-color: white;
+  background-color: var(--background-color);
   color: var(--primary-text-colour);
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03;
 }
 
 /* Logo */
@@ -30,7 +37,7 @@ body {
 }
 
 .header .studio-style {
-  color: #000000;
+  color: var(--studio-stile-color);
 }
 
 /* Navigation */
@@ -38,7 +45,6 @@ body {
 .nav-site .link {
   color: var(--title-text-colour);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -53,7 +59,6 @@ body {
 .nav-contact .tel {
   color: var(--title-text-colour);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -75,7 +80,7 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--text-white-accent-colour);
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
@@ -90,19 +95,14 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .preferences-list .content-title {
   color: var(--title-text-colour);
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .preferences-list .text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* Our team */
@@ -112,31 +112,27 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* Footer */
 .footer-section {
-  background-color: #2f303a;
+  background-color: var(--section-backgroun-colour);
 }
 
 .address-offline,
 .address-email,
 .address-tel {
   font-style: normal;
-  color: #ffffff;
-  font-size: 14px;
+  color: var(--text-white-accent-colour);
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .footer-section .studio-style {
-  color: #ffffff;
+  color: var(--text-white-accent-colour);
 }
 .address-offline,
 .address-tel,
@@ -159,7 +155,7 @@ body {
 /* Buttons */
 
 .button {
-  color: #ffffff;
+  color: var(--text-white-accent-colour);
   background-color: var(--accent-colour);
   font-weight: bold;
   font-size: 16px;
@@ -169,7 +165,7 @@ body {
 
 .button-port {
   color: var(--title-text-colour);
-  background-color: #f5f4fa;
+  background-color: var(--button-background-colour);
   cursor: pointer;
 }
 .button-port:hover,
@@ -187,6 +183,5 @@ body {
 .projects p {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--primary-text-colour);
 }
