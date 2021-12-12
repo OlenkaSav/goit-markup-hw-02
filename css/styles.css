@@ -24,7 +24,7 @@ body {
   color: var(--primary-text-colour);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
 }
 
 /* Logo */
@@ -57,7 +57,7 @@ body {
 
 .nav-contact .email,
 .nav-contact .tel {
-  color: var(--title-text-colour);
+  color: var(--primary-text-colour);
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: 0.02em;
@@ -159,7 +159,7 @@ body {
   background-color: var(--accent-colour);
   font-weight: bold;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   cursor: pointer;
 }
 
@@ -171,6 +171,7 @@ body {
 .button-port:hover,
 .button-port:focus {
   background-color: var(--accent-colour);
+  color: var(--text-white-accent-colour);
 }
 /* portfolio */
 .port-title {
@@ -184,4 +185,8 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-colour);
+}
+
+.projects a {
+  text-decoration: none;
 }
